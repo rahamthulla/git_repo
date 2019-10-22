@@ -1,0 +1,3 @@
+ssh -p 29418 <Server_Name> gerrit query --current-patch-set <Chnage_Number> > change-info.txt
+
+ssh -p 29418 <Server_Name> gerrit query --current-patch-set project:<git_name> branch:<Branch_Name> <Chnage_Number> > change-info.txt
